@@ -57,8 +57,8 @@ nav{
 
 
 .container {
-  height: 70vh;
-  min-height: 500px;
+  height: 100%;
+  width: 100%;
   display: grid;
   grid-template-columns: 25% 75%;
   grid-template-rows: 25% 75%;
@@ -104,6 +104,8 @@ nav{
 }
 
 .mywork{
+  height: 100%;
+  width: 100%;
   padding: 20px;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -114,7 +116,9 @@ nav{
   "pp rb";
 }
 
+
 .surf-report {
+ 
   border: rgb(164, 159, 159) solid 7px;
   margin: 10px;
   grid-area: sr;
@@ -122,6 +126,7 @@ nav{
 }
 
 .led-wall {
+ 
   border: rgb(164, 159, 159) solid 7px;
   margin: 10px;
   grid-area: ld;
@@ -129,6 +134,7 @@ nav{
 }
 
 .calculator {
+  
   border: rgb(164, 159, 159) solid 7px;
   margin: 10px;
   grid-area: cl;
@@ -136,7 +142,22 @@ nav{
 }
 
 
+.purple-puzzle {
 
+  border: rgb(164, 159, 159) solid 7px;
+  margin: 10px;
+  grid-area: pp;
+  background-image: url("../images/02-portfolio-4.jpg");
+}
+
+
+.running-buddy {
+  
+  border: rgb(164, 159, 159) solid 7px;
+  margin: 10px;
+  grid-area: rb;
+  background-image: url("../images/02-portfolio-5.jpg");
+}
 
 
 .heading {
